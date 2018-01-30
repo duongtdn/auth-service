@@ -1,0 +1,29 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "authentication service for api servers",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongtdn/auth-service.git"
+  },
+  "scripts": {
+    "start": "nodemon src/app.local"
+  },
+  "author": "duongtdn",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.166.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
